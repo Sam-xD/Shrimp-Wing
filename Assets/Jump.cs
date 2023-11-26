@@ -10,6 +10,11 @@ public class Jump : MonoBehaviour
 
 
     //Button Logic
+
+    public void Awake()
+    {
+        //Debug.Log("awake");
+    }
     public void StartButton()
     {
         //Button for start
